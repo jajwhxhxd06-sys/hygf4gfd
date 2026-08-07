@@ -1,0 +1,33 @@
+{
+    "fabricVersion": 1,
+    "id": "visualclient",
+    "version": "${version}",
+    "name": "VisualClient",
+    "description": "Custom visual client with Click GUI",
+    "authors": [
+        "YourName"
+    ],
+    "contact": {
+        "homepage": "https://github.com/yourusername/visualclient"
+    },
+    "license": "MIT",
+    "icon": "assets/visualclient/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.visualclient.VisualClient"
+        ],
+        "client": [
+            "com.visualclient.VisualClientClient"
+        ]
+    },
+    "mixins": [
+        "visualclient.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "~1.21.4",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
