@@ -1,0 +1,10 @@
+{
+  "lang": {
+    "visualclient.gui.title": "VisualClient GUI",
+    "visualclient.module.combat": "Combat",
+    "visualclient.module.render": "Render",
+    "visualclient.module.movement": "Movement",
+    "visualclient.module.player": "Player",
+    "visualclient.module.world": "World"
+  }
+}
